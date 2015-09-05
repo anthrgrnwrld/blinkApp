@@ -13,6 +13,7 @@
 		36E95F071B9BB20A00E72001 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E95F061B9BB20A00E72001 /* Images.xcassets */; };
 		36E95F0A1B9BB20A00E72001 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36E95F081B9BB20A00E72001 /* LaunchScreen.xib */; };
 		36E95F161B9BB20A00E72001 /* blinkTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E95F151B9BB20A00E72001 /* blinkTestAppTests.swift */; };
+		36E95F201B9BB5F700E72001 /* blinkApp.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36E95F1F1B9BB5F700E72001 /* blinkApp.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		36E95F0F1B9BB20A00E72001 /* blinkTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blinkTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E95F141B9BB20A00E72001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36E95F151B9BB20A00E72001 /* blinkTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blinkTestAppTests.swift; sourceTree = "<group>"; };
+		36E95F1F1B9BB5F700E72001 /* blinkApp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = blinkApp.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		36E95EFD1B9BB20A00E72001 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36E95F1F1B9BB5F700E72001 /* blinkApp.gif */,
 				36E95EFE1B9BB20A00E72001 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36E95F051B9BB20A00E72001 /* Main.storyboard in Resources */,
+				36E95F201B9BB5F700E72001 /* blinkApp.gif in Resources */,
 				36E95F0A1B9BB20A00E72001 /* LaunchScreen.xib in Resources */,
 				36E95F071B9BB20A00E72001 /* Images.xcassets in Resources */,
 			);
