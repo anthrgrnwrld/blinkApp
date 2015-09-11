@@ -21,8 +21,6 @@ class ViewController: UIViewController {
             self.blinkView.alpha = 0.0
             }, completion: nil)
         
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,6 +34,10 @@ class ViewController: UIViewController {
         UIView.animateWithDuration(0.001, animations: {
             self.blinkView.alpha = 1.0
             })
+        
+//        //こっちの方法でもOK
+//        blinkView.layer.removeAllAnimations()
+//        blinkView.alpha = 1.0
     }
 
 
